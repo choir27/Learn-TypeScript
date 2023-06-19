@@ -46,6 +46,6 @@ type DogInfoListeners = Listeners<DogInfo>
 
 listenToObject(lg, {
     onNameChange: (v: string) => {},
-    onAgeChange: (v: number) => {},
+    onAgeChange: (v: number) => {}, 
     onAgeDelete: () => {},
 })
